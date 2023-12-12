@@ -16,7 +16,7 @@ Download the starter code and files to help you get started:
 
 1. Have one member of your group create a new repository, named **Crowdfunding_ET**L, for this project. Add your partner as a collaborator. **Do not add this project to an existing repository.**
 2. Clone the new repository to your computer.
-3. Have one person rename the ETL_Mini_Project_starter_code.ipynb file with the first name initial and last name of each member of the group, for example, **ETL_Mini_Project_NRomanoff_JSmith.ipynb**. Then, add this Jupyter notebook file and the Resources folder containing the crowdfunding.xlsx and the **contacts.xlsx** files to your repository.
+3. Have one person rename the **ETL_Mini_Project_starter_code.ipynb** file with the first name initial and last name of each member of the group, for example, **ETL_Mini_Project_NRomanoff_JSmith.ipynb**. Then, add this Jupyter notebook file and the Resources folder containing the crowdfunding.xlsx and the **contacts.xlsx** files to your repository.
 4. Push the changes to GitHub.
 5. Have your partner pull the changes, so both of you have the same notebook available on your computer.
 6. As you work through the project deliverables, you may find it helpful to break up the work across other notebooks that you each work on individually. However, once complete, please combine all the subsections back into the final ETL_Mini_Project notebook.
@@ -43,11 +43,11 @@ The instructions for this mini project are divided into the following subsection
 2. Export the category DataFrame as **category.csv** and save it to your GitHub repository.
 3. Extract and transform the **crowdfunding.xlsx** Excel data to create a subcategory DataFrame that has the following columns:
 
-  * A "subcategory_id" column that has entries going sequentially from "subcat1" to "subcatn", where n is the number of unique subcategories
-  * A "subcategory" column that contains only the subcategory titles
-  * The following image shows this subcategory DataFrame:
+     * A "subcategory_id" column that has entries going sequentially from "subcat1" to "subcatn", where n is the number of unique subcategories
+     * A "subcategory" column that contains only the subcategory titles
+     * The following image shows this subcategory DataFrame:
 
-<img width="250" alt="subcat            egory_DataFrame" src="https://github.com/wsylliac/Crowdfunding_ETL/assets/140991773/1819a0be-fd71-4b6a-9bd2-8b8d9f2cd4dc">
+![Screenshot 2023-12-11 at 10 16 42 PM](https://github.com/wsylliac/Crowdfunding_ETL/assets/140991773/c2b5aa0f-a0c9-4341-b13d-7b53811c2fce)
 
 4. Export the subcategory DataFrame as **subcategory.csv** and save it to your GitHub repository.
 
@@ -111,13 +111,15 @@ The instructions for this mini project are divided into the following subsection
 
 1. Inspect the four CSV files, and then sketch an ERD of the tables by using QuickDBD Links to an external site..
 2. Use the information from the ERD to create a table schema for each CSV file.
-  **Note**: Remember to specify the data types, primary keys, foreign keys, and other constraints.
-3. Save the database schema as a Postgres file named crowdfunding_db_schema.sql, and save it to your GitHub repository.
-4. Create a new Postgres database, named crowdfunding_db.
-5. Using the database schema, create the tables in the correct order to handle the foreign keys.
-6. Verify the table creation by running a **SELECT** statement for each table.
-7. Import each CSV file into its corresponding SQL table.
-8. Verify that each table has the correct data by running a **SELECT** statement for each.
+
+   **Note**: Remember to specify the data types, primary keys, foreign keys, and other constraints.
+   
+4. Save the database schema as a Postgres file named **crowdfunding_db_schema.sql**, and save it to your GitHub repository.
+5. Create a new Postgres database, named **crowdfunding_db**.
+6. Using the database schema, create the tables in the correct order to handle the foreign keys.
+7. Verify the table creation by running a **SELECT** statement for each table.
+8. Import each CSV file into its corresponding SQL table.
+9. Verify that each table has the correct data by running a **SELECT** statement for each.
 
 
 ### Hints
